@@ -1,0 +1,10 @@
+cycler==0.10.0          # via matplotlib
+glob2==0.7
+kiwisolver==1.3.1       # via matplotlib
+matplotlib==3.2.2
+numpy==1.19.4
+pandas==1.1.5
+pyparsing==2.4.7        # via matplotlib
+scipy==1.4.1            # via seaborn
+seaborn==0.11.0
+sklearn==0.0
