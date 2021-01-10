@@ -40,7 +40,7 @@ Steps :-
 * KNN naturally supports incremental learning.
 * Random Forest overfitts the model as it is showing less bias and high variance, thus making it less compatible for this data.
   But KNN is showing less bias and less variance as compared to other Classifiers.
-* KNN classifier gives test error rates closer to that of Bayesian classier (the gold standard)
+* KNN classifier gives test error rates closer to that of Bayesian classier (the gold standard).
 * KNN classifier works better in large number of samples like this data.
        
 
