@@ -69,4 +69,4 @@ Steps :-
   But KNN is showing less bias and less variance as compared to other Classifiers.
 * KNN classifier gives test error rates closer to that of Bayesian classier (the gold standard).
 * KNN classifier works better in large number of samples like this data.
-       
+* From K-Fold Cross validation, KNN is performing better in the training set as it is showing less variance in the accuracy score.
