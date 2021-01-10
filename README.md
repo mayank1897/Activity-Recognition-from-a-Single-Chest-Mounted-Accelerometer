@@ -33,7 +33,7 @@ Steps :-
   * Confusion Matrix
 * Cross- Validation
 * Comparison between KNN , Decision tree and Random Forest Classifier
-  # Reasons for selecting KNN Classifier
+  ### Reasons for selecting KNN Classifier
   * Accuracy of KNN Classifier is 79.63%, Decision tree Classifier is 73.62% and Random Forest Classifier is 78.84% on the Test data.
   * Accuracy from the KNN Classifier is slightly higher than that of Random Forest but much higher than the Decision tree.
   * The computational complexity for KNN is comparatively more as it doesn't built a generalised model during the training phase hence it requires more time in testing phase,     also we can say that it computes distances of each query instance to all training samples but as KNN performs instance-based learning, a well-tuned K can model complex       decision spaces having arbitrarily complicated decision boundarie which are not modeled by other 'eager' Classifiers like Decision tree.
