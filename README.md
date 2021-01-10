@@ -11,14 +11,27 @@ Steps :-
 
 * Used glob module to retrieve files as it is used to retrieve files/pathnames matching a specified pattern
   
-  glob(r"path\classification\Activity Recognition from Single Chest-Mounted Accelerometer/*.csv")
+      glob(r"path\classification\Activity Recognition from Single Chest-Mounted Accelerometer/*.csv")
        
-* Adding some extra attributes like magnitude of acceleration (A_m)
-       
+* Adding some extra attributes like magnitude of acceleration (A_m)       
 * Anomaly Detection by using zscore and EllipticEnvelope as the data is normally distributed and multimodal.
   
   Percentage of outliers in the whole data= 10%
        
+## EDA (Exploratory Data Analysis)
 
+* Exploring each feature
+* Exploring the relationship between participants and their activities
+
+## Data Modelling
+
+* Data Spliting
+* Feature Scaling 
+* Building Pipeline
+  * Finding the optimal value of k in KNN (K-Nearest Neighbors)
+  * Classification Report
+  * Confusion Matrix
+* Cross- Validation
+* Comparison between KNN , Decision tree and Random Forest Classifier
        
 
